@@ -1,0 +1,51 @@
+.app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.hero {
+  max-width: 720px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #d9e1ea;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 14px 36px rgba(28, 58, 84, 0.12);
+}
+
+.eyebrow {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2c5e86;
+}
+
+h1 {
+  margin: 0.5rem 0 0.75rem;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+}
+
+p {
+  margin: 0;
+}
+
+.route-list {
+  margin: 1rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.route-list li {
+  margin: 0.35rem 0;
+}
+
+.route-list a {
+  color: #124f78;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.route-list a:hover {
+  text-decoration: underline;
+}
